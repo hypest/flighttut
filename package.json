@@ -17,7 +17,7 @@
   },
   "scripts": {
     "livereload": "gulp",
-    "server": "static app",
+    "server": "static -a 0.0.0.0 app",
     "test": "karma start --single-run",
     "watch": "npm run server > server.log & npm run livereload",
     "watch-test": "karma start"
